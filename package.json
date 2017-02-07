@@ -1,0 +1,17 @@
+{
+    "author": "Matheus de Mattos",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "Tutorial - Desenvolvendo uma Aplicação RESTful API - Node.Js, Express com MongoDb",
+    "name": "node-api",
+    "main": "server.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+    "dependencies": {
+        "body-parser": "~1.0.1",
+        "express": "~4.0.0",
+        "mongoose": "*",
+        "request": "^2.74.0"
+    }
+}
